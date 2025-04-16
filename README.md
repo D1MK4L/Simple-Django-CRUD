@@ -94,3 +94,5 @@ Interactive API docs at:
 ```url
 http://127.0.0.1:8000/api/swagger/
 ```
+
+Happy Coding D1MK4L
