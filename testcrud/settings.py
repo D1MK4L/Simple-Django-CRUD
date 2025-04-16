@@ -91,11 +91,6 @@ WSGI_APPLICATION = 'testcrud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME': 'Simple_App_DB_Name',  # Database name
-        # 'USER': 'Simple_App_DB_User',     # Database username or use Env Variables
-        # 'PASSWORD': 'Simple_App_DB_Password',  # Set your password or use Env Variables
-        # 'HOST': 'localhost',
-        # 'PORT': '5432',
         'NAME': os.environ.get('Simple_App_DB_Name', 'default_db'),
         'USER': os.environ.get('Simple_App_DB_User', 'default_user'),
         'PASSWORD': os.environ.get('Simple_App_DB_Password', 'password'),  # from Windows env
