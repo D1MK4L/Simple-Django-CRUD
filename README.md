@@ -74,7 +74,7 @@ python manage.py runserver
 - Access at : http://127.0.0.1:8000
 
 🧪 API Endpoints
-
+```text
 All endpoints are prefixed with /api/.
 Method	Endpoint	Description
 POST	/api/register/	Register new users
@@ -87,7 +87,7 @@ PUT	/api/posts/{id}/	Fully update a post
 PATCH	/api/posts/{id}/	Partially update a post
 DELETE	/api/posts/{id}/	Delete a post
 DELETE	/api/posts/{id}/delete_post/	Custom delete endpoint
-
+```
 📘 Swagger UI
 
 Interactive API docs at: 
@@ -95,4 +95,6 @@ Interactive API docs at:
 http://127.0.0.1:8000/api/swagger/
 ```
 
-Happy Coding D1MK4L
+Happy Coding!
+
+D1MK4L
